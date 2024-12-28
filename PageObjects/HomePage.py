@@ -16,15 +16,15 @@ class HomePage():
 
 #Action method
 
-    def clickmyaccount(self):
+    def clickMyAccount(self):
         self.driver.find_element(By.XPATH,self.lnk_myaccount_xpath).click()
 
 
 
-    def clickregister(self):
+    def clickRegister(self):
         self.driver.find_element(By.LINK_TEXT,self.lnk_register_linktext).click()
 
-    def clicklogin(self):
+    def clickLogin(self):
         self.driver.find_element(By.LINK_TEXT,self.lnk_login_linktext).click()
 
 
